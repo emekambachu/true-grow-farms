@@ -74,9 +74,7 @@
                 </ul>
 
                 <div class="main-header__info">
-                    <a href="#" class="search-toggler main-header__search-btn"><i class="agrikon-icon-magnifying-glass"></i></a>
-                    <a class="main-header__cart-btn" href="#"><i class="agrikon-icon-shopping-cart"></i></a>
-                    <a href="tel:92-666-888-0000" class="main-header__info-phone">
+                    <a href="tel:682 214 3661" class="main-header__info-phone">
                         <i class="agrikon-icon-phone-call"></i>
                         <span class="main-header__info-phone-content">
                             <span class="main-header__info-phone-text">Call Anytime</span>
