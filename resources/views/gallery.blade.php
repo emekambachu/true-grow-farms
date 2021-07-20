@@ -93,7 +93,6 @@
                 <div class="col-lg-7">
                     <div class="call-to-action__three-content">
                         <h3>Providing High Quality Products</h3>
-                        <a href="{{ url('about') }}" class="thm-btn">Discover More</a>
                     </div>
                 </div>
             </div>

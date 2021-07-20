@@ -79,9 +79,9 @@
                     <a href="tel:92-666-888-0000" class="main-header__info-phone">
                         <i class="agrikon-icon-phone-call"></i>
                         <span class="main-header__info-phone-content">
-<span class="main-header__info-phone-text">Call Anytime</span>
-<span class="main-header__info-phone-title">682 214 3661</span>
-</span>
+                            <span class="main-header__info-phone-text">Call Anytime</span>
+                            <span class="main-header__info-phone-title">682 214 3661</span>
+                        </span>
                     </a>
                 </div>
             </div>

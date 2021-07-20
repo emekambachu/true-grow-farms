@@ -39,6 +39,12 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-8">
+                    @if(session('success'))
+                        <div class="text-center text-white p-3" style="width: 70%; margin: 4px auto; background-color: #3e976c;">
+                            <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+                            {{ session('success') }}
+                        </div>
+                    @endif
                     <form action="{{ url('contact/submit') }}"
                           class="contact-one__form contact-form-validated" novalidate="novalidate">
                         @csrf
