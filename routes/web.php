@@ -40,6 +40,7 @@ Route::post('contact/submit', function (Request $request){
         'name' => $input['name'],
         'email' => $input['email'],
         'mobile' => $input['mobile'],
+        'subject' => $input['subject'] ?? 'New message from'.$input['name'],
         'description' => $input['description'],
     ];
 
@@ -47,7 +48,7 @@ Route::post('contact/submit', function (Request $request){
         $message->from($data['email'], $data['name']);
         $message->to('info@truegrowfarms.com');
         $message->replyTo('info@truegrowfarms.com');
-        $message->subject('Request for '.$data['product']);
+        $message->subject($data['subject']);
     });
 
 //    Session::flash('success', 'Deleted');

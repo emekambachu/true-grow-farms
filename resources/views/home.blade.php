@@ -26,12 +26,10 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-7 col-lg-7">
-                                <span class="tagline">Welcome to Agriculture Farm</span>
+                                <span class="tagline">Welcome to True Grow Farms</span>
                                 <h2><span>Agriculture</span> <br>
                                     & Eco Farming</h2>
-                                <p>There are many of passages of lorem Ipsum, but the majori have <br> suffered alteration
-                                    in some form.</p>
-                                <a href="#" class=" thm-btn">Discover More</a>
+                                <a href="{{ url('about') }}" class=" thm-btn">Discover More</a>
 
                             </div>
                         </div>
@@ -44,12 +42,10 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-xl-7 col-lg-7">
-                                <span class="tagline">Welcome to Agriculture Farm</span>
+                                <span class="tagline">Welcome to True Grow Farms</span>
                                 <h2><span>Agriculture</span><br>
                                     & Eco Farming</h2>
-                                <p>There are many of passages of lorem Ipsum, but the majori have <br> suffered alteration
-                                    in some form.</p>
-                                <a href="#" class=" thm-btn">Discover More</a>
+                                <a href="{{ url('about') }}" class=" thm-btn">Discover More</a>
 
                             </div>
                         </div>
@@ -112,7 +108,7 @@
                     <div class="about-one__content">
                         <div class="block-title text-left">
                             <div class="block-title__image"></div>
-                            <p>Welcome to agricon</p>
+                            <p>Welcome to True Grow Farms</p>
                             <h3>Better Agriculture for
                                 Better Future</h3>
                         </div>
@@ -120,8 +116,8 @@
                             <p>We have 30 years of agriculture & eco farming experience globaly</p>
                         </div>
                         <div class="about-one__summery">
-                            <p>There are many variations of passages of lorem ipsum available but the majority have suffered
-                                alteration in some form by injected humor or random word which don't look even.</p>
+                            <p>Our very first community supporting agriculture (CSA) farm which been growing food, fun, and community spirit from the ground up for 34 years.<br>
+                                We set the tone and standards of home grown local, organic and regenerative community. Our little urban farm has been home for three generations of families sharing the livingness of our sacred soil’s celebration..</p>
                         </div>
                         <div class="about-one__icon-row">
                             <div class="row">
@@ -164,7 +160,6 @@
                                 <i class="agrikon-icon-tractor"></i>
                             </div>
                             <h3><a href="">Agriculture Products</a></h3>
-                            <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
                         </div>
                     </div>
                 </div>
@@ -178,7 +173,6 @@
                                 <i class="agrikon-icon-organic-food"></i>
                             </div>
                             <h3><a href="">Oragnic Products</a></h3>
-                            <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
                         </div>
                     </div>
                 </div>
@@ -191,9 +185,7 @@
                             <div class="service-two__card-icon">
                                 <i class="agrikon-icon-vegetable"></i>
                             </div>
-                            <h3><a href="">Fresh
-                                    Vegetables</a></h3>
-                            <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
+                            <h3><a href="">Fresh Vegetables</a></h3>
                         </div>
                     </div>
                 </div>
@@ -206,15 +198,14 @@
                             <div class="service-two__card-icon">
                                 <i class="agrikon-icon-dairy"></i>
                             </div>
-                            <h3><a href="">Dairy
-                                    Products</a></h3>
-                            <p>Lorem ium dolor sit ametad pisicing elit sed simply do ut.</p>
+                            <h3><a href="">Dairy Products</a></h3>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <div class="projects-one project-one__home-one">
         <div class="container">
             <div class="block-title text-center">
@@ -304,6 +295,33 @@
             </div>
         </div>
     </div>
+
+    <section class="about-three">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-three__image">
+                        <img src="{{ asset('njs_ceo.jpeg') }}" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-three__content">
+                        <div class="block-title">
+                            <div class="block-title__image"></div>
+                            <p>Get to know us</p>
+                            <h3>Our CEO</h3>
+                        </div>
+                        <div class="about-three__summery">
+                            <p>Nichola J. Stein, Our CEO and Livestock investor, explores how agricultural innovation is contributing to Zurich farmers combat climate challenges on his 13,000-acre farm.</p>
+                            <p>Nichola had a remarkable educational experience in Management and Agriculture. He studied Business Administration in HWZ University of Applied Sciences, Zurich. He got his Bachelor's degree in Business Administration and Management and a Masters degree in Agricultural Business and Management.</p>
+                            <p>Nichola relies on innovatsion in agricultural technology to farm sustainably and look after the environment. This helps reduce the impact climate change has on farming and allows them to grow high-quality crops despite the changes. He says "says leaving a legacy means leaving the land better than it was before".</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="call-to-action__three jarallax" data-jarallax data-speed="0.3" data-imgPosition="50% 50%">
         <img class="call-to-action__three__bg jarallax-img"
              src="{{ asset('assets/images/backgrounds/cta-1-bg-1.jpg') }}" alt="parallax-image" />
@@ -413,83 +431,10 @@
             <div class="swiper-pagination" id="testimonials-one__swiper-pagination"></div>
         </div>
     </section>
+
     <section class="gray-boxed-wrapper home-one__boxed">
         <img src="{{ asset('assets/images/icons/home-1-blog-bg.png') }}" alt="" class="home-one__boxed-bg">
-        <div class="blog-home-two blog-home-one">
-            <div class="container">
-                <div class="row top-row">
-                    <div class="col-lg-6">
-                        <div class="block-title">
-                            <div class="block-title__image"></div>
-                            <p>From the blog post</p>
-                            <h3>Latest News & Articles
-                                Directly from Blog</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <p class="block-text">Lorem ipsum is simply free text available. Aenean eu leo quam. Pellentesque
-                            ornare
-                            sem lacinia
-                            quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 col-lg-4">
-                        <div class="blog-card">
-                            <div class="blog-card__image">
-                                <img src="{{ asset('assets/images/blog/blog-grid-1.jpg') }}"
-                                     alt="Best Way to Do Eco and Agriculture">
-                                <a href=""></a>
-                            </div>
-                            <div class="blog-card__content">
-                                <div class="blog-card__date">18 Nov</div>
-                                <div class="blog-card__meta">
-                                    <a href=""><i class="far fa-user-circle"></i> by Admin</a>
-                                    <a href=""><i class="far fa-comments"></i> 2 Comments</a>
-                                </div>
-                                <h3><a href="">Best Way to Do Eco and Agriculture</a></h3>
-                                <a href="" class="thm-btn">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 col-lg-4">
-                        <div class="blog-card">
-                            <div class="blog-card__image">
-                                <img src="{{ asset('assets/images/blog/blog-grid-2.jpg') }}" alt="Leverage agile frameworks to provide">
-                                <a href=""></a>
-                            </div>
-                            <div class="blog-card__content">
-                                <div class="blog-card__date">18 Nov</div>
-                                <div class="blog-card__meta">
-                                    <a href=""><i class="far fa-user-circle"></i> by Admin</a>
-                                    <a href=""><i class="far fa-comments"></i> 2 Comments</a>
-                                </div>
-                                <h3><a href="">Leverage agile frameworks to provide</a></h3>
-                                <a href="" class="thm-btn">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 col-lg-4">
-                        <div class="blog-card">
-                            <div class="blog-card__image">
-                                <img src="{{ asset('assets/images/blog/blog-grid-3.jpg') }}" alt="Organically grow the holistic world view">
-                                <a href=""></a>
-                            </div>
-                            <div class="blog-card__content">
-                                <div class="blog-card__date">18 Nov</div>
-                                <div class="blog-card__meta">
-                                    <a href=""><i class="far fa-user-circle"></i> by Admin</a>
-                                    <a href=""><i class="far fa-comments"></i> 2 Comments</a>
-                                </div>
-                                <h3><a href="">Organically grow the holistic world view</a></h3>
-                                <a href="" class="thm-btn">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr />
-            </div>
-        </div>
+
         <div class="blog-home__slogan">
             <div class="container">
                 <div class="row">
@@ -531,12 +476,6 @@
                             <h3>Leave Us A
                                 Message</h3>
                         </div>
-                        <div class="contact-two__summery">
-                            <p>Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor
-                                incididunt
-                                ut labore et dolore magna aliqua lonm andhn. Aenean tincidunt id mauris id auctor. Donec at
-                                ligula lacus dignissim mi quis simply neque.</p>
-                        </div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-4">
@@ -570,8 +509,19 @@
             </div>
         </div>
     </section>
+
     <div class="client-carousel client-carousel__has-border-top">
         <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-3">
+                    <div class="contact-two__content">
+                        <div class="block-title">
+                            <div class="block-title__image"></div>
+                            <h3>Partners</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="thm-swiper__slider swiper-container" data-swiper-options='{"spaceBetween": 140, "slidesPerView": 5, "autoplay": { "delay": 5000 }, "breakpoints": {
                 "0": {
                     "spaceBetween": 30,
@@ -600,64 +550,22 @@
             }}'>
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('assets/images/resources/brand-1-1.png') }}" alt="">
+                        <img src="{{ asset('assets/images/partners/1.png') }}" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('assets/images/resources/brand-1-1.png') }}" alt="">
+                        <img src="{{ asset('assets/images/partners/2.png') }}" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('assets/images/resources/brand-1-1.png') }}" alt="">
+                        <img src="{{ asset('assets/images/partners/3.png') }}" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('assets/images/resources/brand-1-1.png') }}" alt="">
+                        <img src="{{ asset('assets/images/partners/4.png') }}" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('assets/images/resources/brand-1-1.png') }}" alt="">
+                        <img src="{{ asset('assets/images/partners/5.png') }}" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('assets/images/resources/brand-1-1.png') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/images/resources/brand-1-1.png') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/images/resources/brand-1-1.png') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/images/resources/brand-1-1.png') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/images/resources/brand-1-1.png') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/images/resources/brand-1-1.png') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/images/resources/brand-1-1.png') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/images/resources/brand-1-1.png') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/images/resources/brand-1-1.png') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/images/resources/brand-1-1.png') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/images/resources/brand-1-1.png') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/images/resources/brand-1-1.png') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/images/resources/brand-1-1.png') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/images/resources/brand-1-1.png') }}" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('assets/images/resources/brand-1-1.png') }}" alt="">
+                        <img src="{{ asset('assets/images/partners/6.png') }}" alt="">
                     </div>
                 </div>
             </div>
